@@ -1,0 +1,17 @@
+.wrapper{
+    position:relative;
+    max-width: 360px;
+    max-height: 641px;
+}
+
+.img{
+    position: relative;
+}
+
+.grade{
+    width:64%;
+    height:auto;
+    position: absolute;
+    top:68%;
+    left:39.5%
+}

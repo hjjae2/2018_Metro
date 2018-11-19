@@ -1,0 +1,20 @@
+.wrapper{
+    position:relative;
+    max-width: 360px;
+    max-height: 641px;
+}
+
+.img{
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    top:103%;
+    left:81%;
+    width:100px;
+    height: 100px;
+    background-color: rgba(0,0,0,0);
+    border:0;
+    outline:0;
+}
