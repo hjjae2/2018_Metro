@@ -19,3 +19,118 @@
     top:33.5%;
     left:19%;
 }
+
+.btn{
+    position: absolute;
+    width:40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    outline:0;
+    z-index:999;
+    cursor:pointer;
+}
+
+.home{
+    top:18%;
+    left:77%;
+}
+
+.refresh{
+    top:18%;
+    left:87%;
+}
+
+.detail{
+    position: absolute;
+    z-index: 999;
+    top:38%;
+    left:2%;
+    opacity:0;
+}
+
+
+.white_content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.white_content:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.white_content > div {
+    position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 16px solid rgb(224,224,224);
+	background-color: white;
+	overflow: hidden;	
+}
+
+.train{
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.box_1st{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:18%;
+}
+
+.box_2nd{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:28%;
+}
+
+.box_3rd{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:39.5%;
+}
+
+.box_4th{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:50.5%;
+}
+
+.box_5th{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:61.5%;
+}
+
+.box_6th{
+    width:10%;
+    height:auto;
+    position: absolute;
+    top:42%;
+    left:72%;
+}
