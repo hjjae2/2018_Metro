@@ -1,21 +1,17 @@
 .wrapper{
     position:relative;
-    max-width: 375px;
-    max-height: 667px;
 }
 
 .img{
     position: relative;
     width:100%;
     height:auto;
-    max-width: 375px;
-    max-height: 667px;
 }
 
 .btn{
     position: absolute;
     top:50%;
-    left:39%;
+    left:47.8%;
     width:60px;
     height: 60px;
     background-color: rgba(0,0,0,0);

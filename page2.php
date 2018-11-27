@@ -26,17 +26,17 @@ $result_avg=round(array_sum($resultarray)/count($resultarray));
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Subway saturation</title>
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="page2.css?ver=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-<body>
+<body style="background-color: black;">
     <div class="wrapper">
         <a href="#open" class="detail">여기여기</a>
         <button class="btn home" type="button" onclick="location.href='page1.html'"> </button>
         <button class="btn refresh" type="button" onclick="location.href='page2.php'"> </button>
-        <img class="img" src="img/METRO_2.png" alt="page1">
+        <img class="img" src="img/bckgd2.png">
         <?php
             switch($result_avg){
                 case 1: echo "<img class=\"grade\" src=\"img/grade1.png\">";
