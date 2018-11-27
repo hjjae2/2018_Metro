@@ -114,5 +114,7 @@
 }
 
 .close_btn{
-    margin-top:35%;
+    position: absolute;
+    top:65%;
+    left:47%;
 }
