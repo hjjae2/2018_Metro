@@ -49,55 +49,55 @@ $result_avg=round(array_sum($resultarray)/count($resultarray));
         ?>
         <div class="white_content" id="open">
             <div style="text-align:center">
-                <img class="train" src="img/tt.png">
-                <button type="button" onclick="location.href='#close'">닫기</button>
+                <img class="train" src="img/train_cut.png">
+                <button type="button" class="close_btn" onclick="location.href='#close'">닫기</button>
                 <?php
                     switch($resultarray[0]){
-                        case 1: echo "<img class=\"box_1st\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_1st\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_1st\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_1st\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_1st\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_1st\" src=\"img/grade3.png\">";
                             break;
                     }
                     switch($resultarray[1]){
-                        case 1: echo "<img class=\"box_2nd\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_2nd\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_2nd\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_2nd\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_2nd\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_2nd\" src=\"img/grade3.png\">";
                             break;
                     }
                     switch($resultarray[2]){
-                        case 1: echo "<img class=\"box_3rd\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_3rd\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_3rd\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_3rd\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_3rd\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_3rd\" src=\"img/grade3.png\">";
                             break;
                     }
                     switch($resultarray[3]){
-                        case 1: echo "<img class=\"box_4th\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_4th\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_4th\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_4th\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_4th\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_4th\" src=\"img/grade3.png\">";
                             break;
                     }
                     switch($resultarray[4]){
-                        case 1: echo "<img class=\"box_5th\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_5th\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_5th\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_5th\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_5th\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_5th\" src=\"img/grade3.png\">";
                             break;
                     }
                     switch($resultarray[5]){
-                        case 1: echo "<img class=\"box_6th\" src=\"img/grade1.png\">";
+                        case 1: echo "<img class=\"box box_6th\" src=\"img/grade1.png\">";
                             break;
-                        case 2: echo "<img class=\"box_6th\" src=\"img/grade2.png\">";
+                        case 2: echo "<img class=\"box box_6th\" src=\"img/grade2.png\">";
                             break;
-                        case 3: echo "<img class=\"box_6th\" src=\"img/grade3.png\">";
+                        case 3: echo "<img class=\"box box_6th\" src=\"img/grade3.png\">";
                             break;
                     }
                 ?>

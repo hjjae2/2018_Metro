@@ -57,7 +57,7 @@
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
-    z-index:999;
+    z-index:998;
 }
 .white_content:target {
     opacity:1;
@@ -76,57 +76,43 @@
 }
 
 .train{
+    position: absolute;
     width:70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 25%;
-    margin-bottom: 5%;
+    left:15%;
+    top:46%;
 }
 
-.box_1st{
+.box{
     width:10%;
     height:auto;
     position: absolute;
     top:45%;
+}
+
+.box_1st{
     left:18%;
 }
 
 .box_2nd{
-    width:10%;
-    height:auto;
-    position: absolute;
-    top:45%;
     left:28%;
 }
 
 .box_3rd{
-    width:10%;
-    height:auto;
-    position: absolute;
-    top:45%;
     left:39.5%;
 }
 
 .box_4th{
-    width:10%;
-    height:auto;
-    position: absolute;
-    top:45%;
     left:50.5%;
 }
 
 .box_5th{
-    width:10%;
-    height:auto;
-    position: absolute;
-    top:45%;
     left:61.5%;
 }
 
 .box_6th{
-    width:10%;
-    height:auto;
-    position: absolute;
-    top:45%;
     left:72%;
+}
+
+.close_btn{
+    margin-top:35%;
 }
